@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="filters">
+    <item>All</item>
+    <item>Critical Care</item>
+    <item>Emergency Medicine</item>
+    <item>Toxicology</item>
+    <item>Pediatrics</item>
+  </string-array>
+</resources>

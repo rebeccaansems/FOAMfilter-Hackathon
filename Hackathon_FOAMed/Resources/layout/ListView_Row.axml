@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="1280px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" />
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo mauris, molestie id leo ut, convallis mollis libero. Curabitur cras amet."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtContent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="6dp" />
+    <TextView
+        android:text="http://www.Google.ca"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:id="@+id/txtLink" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:paddingBottom="5dp"
+        android:id="@+id/txtPicture" />
+</LinearLayout>
